@@ -38,7 +38,7 @@ const DisplayPassword = ({
   show: boolean;
   setShow: any;
 }) => {
-  const toggleShow = (e) => {
+  const toggleShow = (e: any) => {
     e.preventDefault();
     setShow((prev: boolean) => !prev);
   };
